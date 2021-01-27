@@ -25,6 +25,7 @@ fi
 
 ## Useful VS Code extensions
 
+* GitLens
 * Code Spell Checker
 * Markdown Table Formatter
 * Rainbow CSV
@@ -33,7 +34,9 @@ fi
 
 ## Setup auto signing in git
 
-To configure your Git client to sign commits by default for a local repository, in Git versions 2.0.0 and above, run `git config commit.gpgsign true`. To sign all commits by default in any local repository on your computer, run `git config --global commit.gpgsign true`.
+[Follow instructions](https://docs.github.com/en/github/authenticating-to-github/about-commit-signature-verification) to set up a gpg signing key, add it to git, and add it to your .zshrc.
+
+To sign all commits by default in any local repository on your computer, run `git config --global commit.gpgsign true`.
 
 To store your GPG key passphrase so you don't have to enter it every time you sign a commit, we recommend using the following tools:
 
