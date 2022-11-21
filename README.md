@@ -4,7 +4,11 @@ personal setup for a new computer with dev environment
 
 ## oh-my-zsh
 
-Make an alias to the theme file in this repo
+Make a symbolic link to the theme file in this repo
+
+```bash
+ln -s /Users/USERDIR/git-repos/dotfiles/jorie.zsh-theme /Users/USERDIR/.oh-my-zsh/themes/jorie.zsh-theme
+```
 
 Also install:
 * `zsh-autosuggestions`
